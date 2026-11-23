@@ -67,7 +67,11 @@ Gente, vocês já perceberam que eu gosto de analogia, né? Lembram daquela da a
 - **Lembrar do funcionário e do patrão.** O funcionário está vendo o saldo. Quem administra talvez conheça um fornecedor que dá prazo ou possa conversar com o cliente sobre um adiantamento. Quem está ali no caixa ainda não enxerga essa possibilidade.
 - **Puxar pra confiança.** “Quantas vezes eu já olhei pro que tinha na mão e falei: ‘Senhor, eu não tô vendo como’? O que eu consigo enxergar hoje tem um limite. Posso confiar em Deus mesmo antes de saber de onde vai vir a ajuda.”
 
-📖 **Ler Provérbios 3:5–6.** Confiar no Senhor de todo o coração e buscar a direção dele quando o nosso entendimento só alcança uma parte do caminho.
+📖 **Ler Provérbios 3:5–6 — Almeida Revista e Corrigida (ARC)**
+
+> “Confia no Senhor de todo o teu coração e não te estribes no teu próprio entendimento. Reconhece-o em todos os teus caminhos, e ele endireitará as tuas veredas.” — [www.bibliaonline.com.br](https://www.bibliaonline.com.br/arc/pv/3)
+
+Confiar no Senhor de todo o coração e buscar a direção dele quando o nosso entendimento só alcança uma parte do caminho.
 
 ### 2. 💡 A inventividade — “E se a provisão vier como uma ideia?”
 
@@ -109,7 +113,11 @@ Agora lembra do pastor Sérgio. Um saiu pra encontrar um comprador. O outro saiu
 
 🎤 **Gancho:** “Até aqui a gente falou do pastor que saiu pra procurar e da pessoa que saiu pra vender. Agora eu queria que vocês pensassem numa tarefa em que precisa de muita gente. Porque Jesus também olhou pra uma multidão e falou de trabalho ainda por fazer.”
 
-📖 **Ler Mateus 9:36–38.** No versículo 36, Jesus olha praquelas pessoas e sente compaixão. É olhando pra gente cansada e desamparada que ele fala de uma colheita grande, com poucos trabalhadores, e pede aos discípulos que orem por trabalhadores. — [www.bible.com](https://www.bible.com)
+📖 **Ler Mateus 9:36–38 — Almeida Revista e Corrigida (ARC)**
+
+> “E, vendo a multidão, teve grande compaixão deles, porque andavam desgarrados e errantes como ovelhas que não têm pastor. Então, disse aos seus discípulos: A seara é realmente grande, mas poucos são os ceifeiros. Rogai, pois, ao Senhor da seara que mande ceifeiros para a sua seara.” — [www.bibliaonline.com.br](https://www.bibliaonline.com.br/arc/mt/9)
+
+No versículo 36, Jesus olha praquelas pessoas e sente compaixão. É olhando pra gente cansada e desamparada que ele fala de uma colheita grande, com poucos trabalhadores, e pede aos discípulos que orem por trabalhadores. — [www.bible.com](https://www.bible.com)
 
 ### 1. O facão e a comida
 
