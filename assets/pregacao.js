@@ -99,6 +99,99 @@
     else { await navigator.clipboard.writeText(location.href); toast("Link copiado"); }
   };
 
+  // ---------- Ouvir (leitura em voz alta pelo navegador) ----------
+  const synth = window.speechSynthesis;
+  const btnOuvir = document.getElementById("ouvir");
+  if (!synth) { btnOuvir.style.display = "none"; }
+
+  const limpar = s => s
+    .replace(/[\u{1F000}-\u{1FAFF}☀-➿️‍]/gu, "")
+    .replace(/—\s*www\.\S+/g, "")
+    .replace(/\bARC\b/g, "Almeida Revista e Corrigida")
+    .replace(/(\d+):(\d+)[–-](\d+)/g, "$1, versículos $2 a $3")
+    .replace(/(\d+):(\d+)/g, "$1, versículo $2")
+    .replace(/·/g, ",")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Blocos lidos, na ordem da página
+  const blocos = () => {
+    const out = [];
+    const intro = document.querySelector(".intro");
+    if (intro) intro.querySelectorAll("p").forEach(el => out.push({ el, sec: null }));
+    all().forEach(sec => {
+      out.push({ el: sec.querySelector("summary .t"), sec });
+      sec.querySelectorAll(".body > h3, .body > p, .body > ul > li, .body > blockquote").forEach(el => out.push({ el, sec }));
+    });
+    return out.filter(b => limpar(b.el.textContent));
+  };
+
+  let gen = 0, fila = [], pos = 0, lendo = false, pausado = false, voz = null;
+  const escolherVoz = () => {
+    const vs = synth.getVoices();
+    voz = vs.find(v => /pt[-_]BR/i.test(v.lang) && /google|natural|online/i.test(v.name))
+       || vs.find(v => /pt[-_]BR/i.test(v.lang))
+       || vs.find(v => /^pt/i.test(v.lang)) || null;
+  };
+  if (synth) { escolherVoz(); synth.onvoiceschanged = escolherVoz; }
+
+  const marcar = el => {
+    document.querySelectorAll(".lendo").forEach(e => e.classList.remove("lendo"));
+    if (el) { el.classList.add("lendo"); el.scrollIntoView({ behavior: "smooth", block: "center" }); }
+  };
+  const atualizarBotao = () => {
+    btnOuvir.textContent = !lendo ? "▶ Ouvir" : pausado ? "▶ Continuar" : "❚❚ Pausar";
+    document.getElementById("parar").style.display = lendo ? "" : "none";
+  };
+
+  const falar = () => {
+    if (!lendo || pos >= fila.length) { parar(); return; }
+    const b = fila[pos];
+    if (b.sec && !b.sec.open) b.sec.open = true;
+    marcar(b.el);
+    const u = new SpeechSynthesisUtterance(limpar(b.el.textContent));
+    u.lang = "pt-BR";
+    if (voz) u.voice = voz;
+    u.rate = 1;
+    const g = ++gen;
+    u.onend = () => { if (g === gen && lendo && !pausado) { pos++; falar(); } };
+    synth.speak(u);
+  };
+  const iniciar = (inicio = 0) => {
+    gen++; synth.cancel();
+    fila = blocos(); pos = inicio; lendo = true; pausado = false;
+    atualizarBotao(); falar();
+  };
+  const parar = () => {
+    lendo = false; pausado = false; gen++; synth && synth.cancel(); marcar(null); atualizarBotao();
+  };
+
+  btnOuvir.onclick = () => {
+    if (!lendo) {
+      // começa na parte aberta (se tiver uma), senão do começo
+      const aberta = all().find(d => d.open);
+      const f = blocos();
+      const i = aberta ? f.findIndex(b => b.sec === aberta) : 0;
+      iniciar(Math.max(0, i));
+    } else if (!pausado) {
+      pausado = true; gen++; synth.cancel(); atualizarBotao();
+    } else {
+      pausado = false; atualizarBotao(); falar();
+    }
+  };
+  document.getElementById("parar").onclick = parar;
+
+  // Tocar num parágrafo enquanto lê: pula pra ele
+  root.addEventListener("click", e => {
+    if (!lendo) return;
+    const el = e.target.closest("p, li, h3, blockquote");
+    if (!el) return;
+    const i = fila.findIndex(b => b.el === el || b.el.contains(el));
+    if (i >= 0) { gen++; synth.cancel(); pos = i; pausado = false; atualizarBotao(); setTimeout(falar, 50); }
+  });
+  window.addEventListener("beforeunload", () => synth && synth.cancel());
+  atualizarBotao();
+
   // Tamanho da fonte (salvo no aparelho)
   const r = document.documentElement;
   let fs = parseInt(localStorage.getItem("pregacao-fs") || "18", 10);

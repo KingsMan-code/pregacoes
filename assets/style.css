@@ -55,6 +55,14 @@ h1 {
   cursor: pointer;
 }
 .toolbar button:active { transform: scale(0.97); }
+.toolbar button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.lendo {
+  background: var(--accent-soft);
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 6px;
+  transition: background .2s;
+}
 .toolbar .spacer { flex: 1; }
 
 details.sec {
