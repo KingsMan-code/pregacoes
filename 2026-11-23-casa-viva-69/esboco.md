@@ -14,7 +14,21 @@ Ao longo de Mateus 19, a gente vê Jesus ensinando em várias situações. Prime
 
 Então, antes de voltar ao versículo 26, eu queria que a gente lesse a conversa desde o começo. Vamos abrir em Mateus 19, do versículo 16 ao 28.”
 
-📖 **Fazer a leitura de Mateus 19:16–28 com o grupo.**
+📖 **Fazer a leitura de Mateus 19:16–28 com o grupo.** — ARC · [abrir na Bíblia](https://www.bibliaonline.com.br/arc/mt/19)
+
+> **16** E eis que, aproximando-se dele um jovem, disse-lhe: Bom Mestre, que bem farei, para conseguir a vida eterna?
+> **17** E ele disse-lhe: Por que me chamas bom? Não há bom, senão um só, que é Deus. Se queres, porém, entrar na vida, guarda os mandamentos.
+> **18** Disse-lhe ele: Quais? E Jesus disse: Não matarás, não cometerás adultério, não furtarás, não dirás falso testemunho;
+> **19** honra teu pai e tua mãe, e amarás o teu próximo como a ti mesmo.
+> **20** Disse-lhe o jovem: Tudo isso tenho guardado desde a minha mocidade; que me falta ainda?
+> **21** Disse-lhe Jesus: Se queres ser perfeito, vai, vende tudo o que tens, dá-o aos pobres e terás um tesouro no céu; e vem e segue-me.
+> **22** E o jovem, ouvindo essa palavra, retirou-se triste, porque possuía muitas propriedades.
+> **23** Disse, então, Jesus aos seus discípulos: Em verdade vos digo que é difícil entrar um rico no Reino dos céus.
+> **24** E outra vez vos digo que é mais fácil passar um camelo pelo fundo de uma agulha do que entrar um rico no Reino de Deus.
+> **25** Os seus discípulos, ouvindo isso, admiraram-se muito, dizendo: Quem poderá, pois, salvar-se?
+> **26** E Jesus, olhando para eles, disse-lhes: Aos homens é isso impossível, mas a Deus tudo é possível.
+> **27** Então, Pedro, tomando a palavra, disse-lhe: Eis que nós deixamos tudo e te seguimos; que receberemos?
+> **28** E Jesus disse-lhes: Em verdade vos digo que vós, que me seguistes, quando, na regeneração, o Filho do Homem se assentar no trono da sua glória, também vos assentareis sobre doze tronos, para julgar as doze tribos de Israel.
 
 ---
 
@@ -44,7 +58,11 @@ Então, antes de voltar ao versículo 26, eu queria que a gente lesse a conversa
 
 ### 4. Voltar ao versículo da abertura
 
-“Agora dá pra entender o espanto dos discípulos. Eles viram aquele rapaz ir embora, ouviram Jesus falar do perigo das riquezas e perguntaram: ‘Quem poderá, pois, salvar-se?’ Essa é a pergunta que Jesus está respondendo no versículo 26. Rico ou pobre, nenhum de nós consegue salvar a si mesmo pela própria força. E aqui está a nossa esperança: Deus entregou o Filho por nós. A salvação que a gente jamais conseguiria conquistar, a gente recebe pela graça.” (Efésios 2:8–9.)
+“Agora dá pra entender o espanto dos discípulos. Eles viram aquele rapaz ir embora, ouviram Jesus falar do perigo das riquezas e perguntaram: ‘Quem poderá, pois, salvar-se?’ Essa é a pergunta que Jesus está respondendo no versículo 26. Rico ou pobre, nenhum de nós consegue salvar a si mesmo pela própria força. E aqui está a nossa esperança: Deus entregou o Filho por nós. A salvação que a gente jamais conseguiria conquistar, a gente recebe pela graça.”
+
+📖 **Efésios 2:8–9 — ARC** · [abrir na Bíblia](https://www.bibliaonline.com.br/arc/ef/2)
+
+> “Porque pela graça sois salvos, por meio da fé; e isso não vem de vós; é dom de Deus. Não vem das obras, para que ninguém se glorie.”
 
 ### 🎤 Gancho pra segunda parte
 
@@ -77,7 +95,17 @@ Confiar no Senhor de todo o coração e buscar a direção dele quando o nosso e
 
 “Quando eu falo de recurso, talvez a primeira coisa que venha à cabeça seja dinheiro. Só que tem uma palavra que o pastor Sérgio usa e de que eu gosto muito: inventividade. É essa capacidade de imaginar, criar, montar alguma coisa. Às vezes eu tô pedindo dinheiro pra resolver um problema, e o Espírito Santo me dá entendimento pra fazer aquilo de um jeito que eu ainda não tinha pensado.”
 
-📖 **Êxodo 31:1–6 e 36:1–2 — Bezalel e a construção do tabernáculo**
+📖 **Êxodo 31:1–6 e 36:1–2 — Bezalel e a construção do tabernáculo** — ARC · [Êx 31](https://www.bibliaonline.com.br/arc/ex/31) · [Êx 36](https://www.bibliaonline.com.br/arc/ex/36)
+
+> **31:1** Depois, falou o Senhor a Moisés, dizendo:
+> **2** Eis que eu tenho chamado por nome a Bezalel, filho de Uri, filho de Hur, da tribo de Judá,
+> **3** e o enchi do Espírito de Deus, de sabedoria, e de entendimento, e de ciência em todo artifício,
+> **4** para inventar invenções, e trabalhar em ouro, e em prata, e em cobre,
+> **5** e em lavramento de pedras para engastar, e em artifício de madeira, para trabalhar em todo lavor.
+> **6** E eis que eu tenho posto com ele a Aoliabe, filho de Aisamaque, da tribo de Dã, e tenho dado sabedoria ao coração de todo aquele que é sábio de coração, para que façam tudo o que te tenho ordenado.
+
+> **36:1** Assim, trabalharam Bezalel e Aoliabe e todo homem sábio de coração, a quem o Senhor dera sabedoria e inteligência, para saber como haviam de fazer toda a obra para o serviço do santuário, conforme tudo o que o Senhor tinha ordenado.
+> **2** Então, Moisés chamou a Bezalel, e a Aoliabe, e a todo homem sábio de coração, em cujo coração o Senhor tinha dado sabedoria, a todo aquele a quem o seu coração moveu que se chegasse à obra para fazê-la.
 
 “Isso acontece no tempo de Moisés. O povo de Israel estava no deserto, e Deus tinha dado a Moisés as instruções pra construir o tabernáculo, a tenda do santuário. Agora imagina receber aquelas instruções. Quem é que vai saber desenhar as peças, trabalhar o ouro, lapidar as pedras e entalhar a madeira?
 

@@ -13,7 +13,7 @@
     return;
   }
 
-  const html = marked.parse(md);
+  const html = marked.parse(md, { breaks: true });
   const tmp = document.createElement("div");
   tmp.innerHTML = html;
 
